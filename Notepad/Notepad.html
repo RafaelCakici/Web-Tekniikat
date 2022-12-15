@@ -7,22 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <label id="labelone" for="Name">Name:</label>
+    <label for="Name">Name</label>
     <br>
-    <input type="text" id="Name" name="Name">
+    <input type="text" id="Name" placeholder="Enter Name">
     <br>
     <label for="Note">Note:</label>
     <br>
     <textarea id="areaone" name="areaone" rows="10" cols="50">
-        Enter text here...
+    Enter text here...
     </textarea>
-    <br>
-    <input type="submit" value="Add Note">
     <br>
     <input type="checkbox" id="important">
     <label for="checkbox"> Important</label>
     <br>
-    
+    <input type="button" id="btn" value="Add Note">
+    <br>
+    <p class="output" id="output1"></p>
+    <p class="output2" id="output2"></p>
 </body>
 <link rel="stylesheet" href="/Notepad/Notepad.css">
+<script src="/Notepad/index.js"></script>
 </html>
