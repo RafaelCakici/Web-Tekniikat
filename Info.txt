@@ -1,0 +1,6 @@
+Sivu on tehty elokuville. Kun hiiren laittaa kuvan päälle, kuva kasvaa ja viereen aukeaa ikkuna jossa on elokuvasta tietoa.
+
+Sivun linkit ovat esim. "Elokuvat", "TV-Sarjat", "Koti", "Genre"
+
+Väri: 444B66
+
