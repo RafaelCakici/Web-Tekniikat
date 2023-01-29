@@ -1,5 +1,24 @@
-$color: red;
+$color: rgb(166, 159, 159);
 
 body{
     background: $color;
+}
+input:hover{
+    color:rgb(255, 0, 0);
+}
+
+div#container > p{
+    border: 1px solid black;
+}
+
+div + p{
+color: rgb(201, 249, 157);
+}
+
+div ~ p{
+    background-color: blue;;
+}
+
+div[class*="collapse navbar-collapse"]{
+    background: rgb(185, 173, 173);
 }
